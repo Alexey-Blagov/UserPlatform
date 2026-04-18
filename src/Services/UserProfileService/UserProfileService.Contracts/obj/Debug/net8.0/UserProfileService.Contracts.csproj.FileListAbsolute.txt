@@ -1,0 +1,12 @@
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Contracts\bin\Debug\net8.0\UserProfileService.Contracts.deps.json
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Contracts\bin\Debug\net8.0\UserProfileService.Contracts.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Contracts\bin\Debug\net8.0\UserProfileService.Contracts.pdb
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Contracts\obj\Debug\net8.0\UserProfileService.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Contracts\obj\Debug\net8.0\UserProfileService.Contracts.AssemblyInfoInputs.cache
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Contracts\obj\Debug\net8.0\UserProfileService.Contracts.AssemblyInfo.cs
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Contracts\obj\Debug\net8.0\UserProfileService.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Contracts\obj\Debug\net8.0\UserProfileService.Contracts.sourcelink.json
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Contracts\obj\Debug\net8.0\UserProfileService.Contracts.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Contracts\obj\Debug\net8.0\refint\UserProfileService.Contracts.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Contracts\obj\Debug\net8.0\UserProfileService.Contracts.pdb
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Contracts\obj\Debug\net8.0\ref\UserProfileService.Contracts.dll

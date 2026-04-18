@@ -1,0 +1,16 @@
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Domain\bin\Debug\net8.0\AdminService.Domain.deps.json
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Domain\bin\Debug\net8.0\AdminService.Domain.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Domain\bin\Debug\net8.0\AdminService.Domain.pdb
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Domain\bin\Debug\net8.0\BuildingBlocks.Domain.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Domain\bin\Debug\net8.0\BuildingBlocks.Domain.pdb
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Domain\obj\Debug\net8.0\AdminService.Domain.csproj.AssemblyReference.cache
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Domain\obj\Debug\net8.0\AdminService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Domain\obj\Debug\net8.0\AdminService.Domain.AssemblyInfoInputs.cache
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Domain\obj\Debug\net8.0\AdminService.Domain.AssemblyInfo.cs
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Domain\obj\Debug\net8.0\AdminService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Domain\obj\Debug\net8.0\AdminService.Domain.sourcelink.json
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Domain\obj\Debug\net8.0\AdminSer.5A03D6BA.Up2Date
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Domain\obj\Debug\net8.0\AdminService.Domain.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Domain\obj\Debug\net8.0\refint\AdminService.Domain.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Domain\obj\Debug\net8.0\AdminService.Domain.pdb
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Domain\obj\Debug\net8.0\ref\AdminService.Domain.dll

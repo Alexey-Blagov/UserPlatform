@@ -1,0 +1,12 @@
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Contracts\bin\Debug\net8.0\AdminService.Contracts.deps.json
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Contracts\bin\Debug\net8.0\AdminService.Contracts.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Contracts\bin\Debug\net8.0\AdminService.Contracts.pdb
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Contracts\obj\Debug\net8.0\AdminService.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Contracts\obj\Debug\net8.0\AdminService.Contracts.AssemblyInfoInputs.cache
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Contracts\obj\Debug\net8.0\AdminService.Contracts.AssemblyInfo.cs
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Contracts\obj\Debug\net8.0\AdminService.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Contracts\obj\Debug\net8.0\AdminService.Contracts.sourcelink.json
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Contracts\obj\Debug\net8.0\AdminService.Contracts.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Contracts\obj\Debug\net8.0\refint\AdminService.Contracts.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Contracts\obj\Debug\net8.0\AdminService.Contracts.pdb
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\AdminService\AdminService.Contracts\obj\Debug\net8.0\ref\AdminService.Contracts.dll

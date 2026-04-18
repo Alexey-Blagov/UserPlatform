@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\BuildingBlocks\\BuildingBlocks.Application",
+    "\\src\\Services",
+    "\\src\\Services\\AdminService",
+    "\\src\\Services\\AdminService\\AdminService.API"
   ],
+  "SelectedNode": "\\src\\ApiGateway",
   "PreviewInSolutionExplorer": false
 }

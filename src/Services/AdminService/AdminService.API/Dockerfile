@@ -1,8 +1,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 COPY . .
-RUN dotnet restore AdminService.API.csproj
-RUN dotnet publish AdminService.API.csproj -c Release -o /app/publish
+RUN dotnet restore src/Services/AdminService/AdminService.API/AdminService.API.csproj
+RUN dotnet publish src/Services/AdminService/AdminService.API/AdminService.API.csproj -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app

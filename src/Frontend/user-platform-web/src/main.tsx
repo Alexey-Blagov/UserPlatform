@@ -8,7 +8,7 @@ import "./styles.css";
 keycloak.init({
   onLoad: "login-required",
   checkLoginIframe: false
-}).then(authenticated => {
+}).then((authenticated: boolean) => {
   if (!authenticated) {
     keycloak.login();
     return;

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "pR1Oep4ltpc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alexey Blagov\\source\\repos\\Project_Keyclock\\src\\Services\\UserProfileService\\UserProfileService.Application\\UserProfileService.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexey Blagov\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\Alexey Blagov\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\Alexey Blagov\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Alexey Blagov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

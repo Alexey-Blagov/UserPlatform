@@ -1,0 +1,16 @@
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Domain\bin\Debug\net8.0\UserProfileService.Domain.deps.json
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Domain\bin\Debug\net8.0\UserProfileService.Domain.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Domain\bin\Debug\net8.0\UserProfileService.Domain.pdb
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Domain\bin\Debug\net8.0\BuildingBlocks.Domain.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Domain\bin\Debug\net8.0\BuildingBlocks.Domain.pdb
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Domain\obj\Debug\net8.0\UserProfileService.Domain.csproj.AssemblyReference.cache
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Domain\obj\Debug\net8.0\UserProfileService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Domain\obj\Debug\net8.0\UserProfileService.Domain.AssemblyInfoInputs.cache
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Domain\obj\Debug\net8.0\UserProfileService.Domain.AssemblyInfo.cs
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Domain\obj\Debug\net8.0\UserProfileService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Domain\obj\Debug\net8.0\UserProfileService.Domain.sourcelink.json
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Domain\obj\Debug\net8.0\UserProf.D16D3CF4.Up2Date
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Domain\obj\Debug\net8.0\UserProfileService.Domain.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Domain\obj\Debug\net8.0\refint\UserProfileService.Domain.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Domain\obj\Debug\net8.0\UserProfileService.Domain.pdb
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\Services\UserProfileService\UserProfileService.Domain\obj\Debug\net8.0\ref\UserProfileService.Domain.dll

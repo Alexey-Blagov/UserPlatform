@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
   keycloak-db:
     image: postgres:16
@@ -41,10 +39,21 @@ services:
     volumes:
       - userprofile-db-data:/var/lib/postgresql/data
 
+  pgadmin:
+    image: dpage/pgadmin4:8
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - keycloak-db
+      - userprofile-db
+
   userprofileservice:
     build:
-      context: ../src/Services/UserProfileService/UserProfileService.API
-      dockerfile: Dockerfile
+      context: ..
+      dockerfile: src/Services/UserProfileService/UserProfileService.API/Dockerfile
     environment:
       ASPNETCORE_URLS: http://+:8080
       ConnectionStrings__Postgres: Host=userprofile-db;Port=5432;Database=user_profile_db;Username=postgres;Password=postgres
@@ -59,8 +68,8 @@ services:
 
   adminservice:
     build:
-      context: ../src/Services/AdminService/AdminService.API
-      dockerfile: Dockerfile
+      context: ..
+      dockerfile: src/Services/AdminService/AdminService.API/Dockerfile
     environment:
       ASPNETCORE_URLS: http://+:8080
       Keycloak__Authority: http://keycloak:8080/realms/user-platform
@@ -72,8 +81,8 @@ services:
 
   gateway:
     build:
-      context: ../src/ApiGateway/UserPlatform.ApiGateway
-      dockerfile: Dockerfile
+      context: ..
+      dockerfile: src/ApiGateway/UserPlatform.ApiGateway/Dockerfile
     environment:
       ASPNETCORE_URLS: http://+:8080
       Keycloak__Authority: http://keycloak:8080/realms/user-platform

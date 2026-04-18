@@ -1,0 +1,12 @@
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\BuildingBlocks\BuildingBlocks.Domain\bin\Debug\net8.0\BuildingBlocks.Domain.deps.json
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\BuildingBlocks\BuildingBlocks.Domain\bin\Debug\net8.0\BuildingBlocks.Domain.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\BuildingBlocks\BuildingBlocks.Domain\bin\Debug\net8.0\BuildingBlocks.Domain.pdb
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\BuildingBlocks\BuildingBlocks.Domain\obj\Debug\net8.0\BuildingBlocks.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\BuildingBlocks\BuildingBlocks.Domain\obj\Debug\net8.0\BuildingBlocks.Domain.AssemblyInfoInputs.cache
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\BuildingBlocks\BuildingBlocks.Domain\obj\Debug\net8.0\BuildingBlocks.Domain.AssemblyInfo.cs
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\BuildingBlocks\BuildingBlocks.Domain\obj\Debug\net8.0\BuildingBlocks.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\BuildingBlocks\BuildingBlocks.Domain\obj\Debug\net8.0\BuildingBlocks.Domain.sourcelink.json
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\BuildingBlocks\BuildingBlocks.Domain\obj\Debug\net8.0\BuildingBlocks.Domain.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\BuildingBlocks\BuildingBlocks.Domain\obj\Debug\net8.0\refint\BuildingBlocks.Domain.dll
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\BuildingBlocks\BuildingBlocks.Domain\obj\Debug\net8.0\BuildingBlocks.Domain.pdb
+C:\Users\Alexey Blagov\source\repos\Project_Keyclock\src\BuildingBlocks\BuildingBlocks.Domain\obj\Debug\net8.0\ref\BuildingBlocks.Domain.dll

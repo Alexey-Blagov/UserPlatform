@@ -1,8 +1,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 COPY . .
-RUN dotnet restore UserProfileService.API.csproj
-RUN dotnet publish UserProfileService.API.csproj -c Release -o /app/publish
+RUN dotnet restore src/Services/UserProfileService/UserProfileService.API/UserProfileService.API.csproj
+RUN dotnet publish src/Services/UserProfileService/UserProfileService.API/UserProfileService.API.csproj -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
