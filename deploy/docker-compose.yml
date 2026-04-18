@@ -1,0 +1,99 @@
+version: "3.9"
+
+services:
+  keycloak-db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: keycloak
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: keycloak
+    ports:
+      - "5436:5432"
+    volumes:
+      - keycloak-db-data:/var/lib/postgresql/data
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.1
+    command: ["start-dev", "--import-realm"]
+    environment:
+      KC_DB: postgres
+      KC_DB_URL_HOST: keycloak-db
+      KC_DB_URL_DATABASE: keycloak
+      KC_DB_USERNAME: keycloak
+      KC_DB_PASSWORD: keycloak
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+    volumes:
+      - ./keycloak:/opt/keycloak/data/import
+    ports:
+      - "8081:8080"
+    depends_on:
+      - keycloak-db
+
+  userprofile-db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: user_profile_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5434:5432"
+    volumes:
+      - userprofile-db-data:/var/lib/postgresql/data
+
+  userprofileservice:
+    build:
+      context: ../src/Services/UserProfileService/UserProfileService.API
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__Postgres: Host=userprofile-db;Port=5432;Database=user_profile_db;Username=postgres;Password=postgres
+      Keycloak__Authority: http://keycloak:8080/realms/user-platform
+      Keycloak__Audience: user-profile-api
+      Keycloak__RequireHttpsMetadata: "false"
+    ports:
+      - "5001:8080"
+    depends_on:
+      - userprofile-db
+      - keycloak
+
+  adminservice:
+    build:
+      context: ../src/Services/AdminService/AdminService.API
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+      Keycloak__Authority: http://keycloak:8080/realms/user-platform
+      Keycloak__Audience: admin-api
+    ports:
+      - "5002:8080"
+    depends_on:
+      - keycloak
+
+  gateway:
+    build:
+      context: ../src/ApiGateway/UserPlatform.ApiGateway
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+      Keycloak__Authority: http://keycloak:8080/realms/user-platform
+      Keycloak__Audience: api-gateway
+    ports:
+      - "5000:8080"
+    depends_on:
+      - userprofileservice
+      - adminservice
+      - keycloak
+
+  frontend:
+    build:
+      context: ../src/Frontend/user-platform-web
+      dockerfile: Dockerfile
+    ports:
+      - "5173:4173"
+    depends_on:
+      - gateway
+
+volumes:
+  keycloak-db-data:
+  userprofile-db-data:
